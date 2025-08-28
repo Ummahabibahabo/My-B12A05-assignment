@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div
+          class="card-1 shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-[var(--White,_rgba(255,255,255,1))] p-5 rounded-xl"
+        >
+          <div class="flex flex-col sm:flex-row justify-between items-center">
+            <img
+              class="w-[32px] h-[32px]"
+              src="./assets/ambulance.png"
+              alt=""
+            />
+            <span class="w-[24px] h-[24px] heart-icon"
+              ><i class="fa-solid fa-heart"></i
+            ></span>
+          </div>
+          <h2 class="font-bold text-[#111111] my-4">
+            National Emergency Number
+          </h2>
+          <p class="font-[18px] text-[#5C5C5C]">National Emergency</p>
+          <p class="font-bold text-[#111111] my-4">999</p>
+          <button
+            class="w-[55px] h-[35px] bg-[var(--Gray-Light,_rgba(242,242,242,1))] rounded-2xl"
+          >
+            <span class="text-[18px] text-[#5C5C5C]">all</span>
+          </button>
+          <div
+            class="flex flex-col sm:flex-row justify-between items-center my-4 gap-5"
+          >
+            <button
+              class="w-full sm:w-[180px] h-[40px]box-border border border-[var(--Stroke,_rgba(212,214,213,1))] rounded-[8px] bg-[var(--White,_rgba(255,255,255,1))] p-4"
+            >
+              <span class="text-[var(--Gray,rgba(92,92,92,1))]"
+                ><i class="fa-solid fa-copy"></i
+              ></span>
+              Copy
+            </button>
+            <button
+              class="w-full sm:w-[180px] p-4 bg-[var(--Green,_rgba(0,166,62,1))] rounded-lg flex items-center justify-center gap-2 text-white"
+            >
+              <span><i class="fa-solid fa-phone"></i></span> Call
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- call-history-section -->
+      <div
+        class="flex flex-col sm:flex-row justify-between items-start w-full lg:w-[30%] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-[var(--White,_rgba(255,255,255,1))] rounded-xl p-5"
+      >
+        <div class="w-full sm:w-auto">
+          <button
+            class="bg-white w-full sm:w-[115px] h-[50px] rounded-xl text-[var(--Dark,rgba(17,17,17,1))]"
+          >
+            <span><i class="fa-solid fa-clock"></i> Call History</span>
+          </button>
+        </div>
+
+        <div class="w-full sm:w-auto">
+          <button
+            class="bg-[#00a63e] w-full sm:w-[115px] h-[50px] rounded-xl text-white"
+          >
+            Clear
+          </button>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
